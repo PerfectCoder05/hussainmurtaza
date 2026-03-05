@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Abaddon";
+    src: url(Abaddon.ttf) format("truetype");
+}
+@font-face {
+    font-family: "AbaddonBold";
+    src: url(AbaddonBold.ttf) format("truetype");
+    font-weight: bold;
+}
+html {
+    scrollbar-color: #6f7bb0 #ffe9da;
+}
+body {
+    font-family: "Abaddon";
+    text-align: center;
+    background-color: rgb(212, 82, 82);
+    color: black;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    font-family: "Abaddon";
+    font-size: 12px;
+}
+h1 {    
+    font-family: "AbaddonBold";
+    font-size: 40px;
+}
+h2 {
+    font-family: "AbaddonBold";
+    font-size: 24px;
+}
+h3 {
+    font-family: "Abaddon";
+}
+p {
+    font-family: "Abaddon";
+    font-size: 18px;
+}
