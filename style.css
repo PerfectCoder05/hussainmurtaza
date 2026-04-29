@@ -15,6 +15,8 @@ body {
     text-align: center;
     background-color: rgb(212, 82, 82);
     color: black;
+    margin: 0;
+    padding-bottom: 40px;
 }
 img {
     max-width: 100%;
@@ -26,19 +28,74 @@ img {
 footer {
     font-family: "Abaddon";
     font-size: 12px;
+    margin-top: 40px;
 }
-h1 {    
+h1, h2 {    
     font-family: "AbaddonBold";
-    font-size: 40px;
 }
-h2 {
-    font-family: "AbaddonBold";
-    font-size: 24px;
-}
-h3 {
-    font-family: "Abaddon";
-}
+h1 { font-size: 40px; }
+h2 { font-size: 24px; }
+h3 { font-family: "AbaddonBold"; font-size: 20px;}
 p {
     font-family: "Abaddon";
     font-size: 18px;
+}
+.nav-links a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: "AbaddonBold";
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Quote Styling */
+.main-quote {
+    font-size: 22px;
+    font-style: italic;
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Skills Slider */
+.slider-container {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #111;
+    color: #fff;
+    padding: 12px 0;
+    margin: 30px 0;
+    width: 100%;
+}
+.slider-text {
+    display: inline-block;
+    font-family: "AbaddonBold";
+    font-size: 20px;
+    animation: slide 20s linear infinite;
+}
+@keyframes slide {
+    from { transform: translateX(100vw); }
+    to { transform: translateX(-100%); }
+}
+
+/* Project Cards */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.project-card {
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
 }

@@ -6,78 +6,65 @@
         <title>Hussain's Memories</title>
         <link rel="icon" href="a-big-flame.png">
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <style>
+            * { box-sizing: border-box; }
+            .row {
+              display: flex;
+              flex-wrap: wrap;
+              padding: 0 4px;
+              max-width: 1000px;
+              margin: 20px auto;
+            }
+            .column {
+              flex: 25%;
+              max-width: 25%;
+              padding: 0 4px;
+            }
+            .column img {
+              margin-top: 8px;
+              vertical-align: middle;
+              width: 100%;
+              border: 2px solid #000;
+              border-radius: 4px;
+            }
+            @media screen and (max-width: 800px) {
+              .column { flex: 50%; max-width: 50%; }
+            }
+            @media screen and (max-width: 600px) {
+              .column { flex: 100%; max-width: 100%; }
+            }
+        </style>
       </head>
-<style>
-* {
-  box-sizing: border-box;
-}
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.column {
-  -ms-flex: 25%;
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-</style>
-
 <body>
 
-    <a href="main.html"><img src="sourceimg/a-big-flame-clearbg.png" width="256" height="142"/></a>
+    <a href="index.html"><img src="sourceimg/a-big-flame-clearbg.png" width="256" height="142" alt="Flame Logo"/></a>
+    
     <h2>Memory Board</h2>
-    <div>
-      <a href='main.html'>Home</a>
+    
+    <div class="nav-links">
+      <a href='index.html'>Home</a>
       <a href='comments.html'>Comments</a>
       <a href='proj.html'>Project</a>
       <a href='transit.html'>Transit</a>
       <a href='gallery.html'>Gallery</a>
     </div>
-    <div>
+
+  <p>Pictures of things</p>
+
+  <div class="row"> 
+    <div class="column">
+      <img src="https://via.placeholder.com/400x500.png?text=Memory+1" alt="Placeholder">
     </div>
-  <p>pictures of things</p>
-<div class="row"> 
-  <div class="column">
-    <img src="gallery/61A56CFB-79E7-4D08-9D81-6F3C3E549060.JPG" style="width:90%">
-    
+    <div class="column">
+      <img src="https://via.placeholder.com/400x300.png?text=Memory+2" alt="Placeholder">
+    </div>  
+    <div class="column">
+      <img src="https://via.placeholder.com/400x450.png?text=Memory+3" alt="Placeholder">
+    </div>
+    <div class="column">
+      <img src="https://via.placeholder.com/400x350.png?text=Memory+4" alt="Placeholder">
+    </div>
   </div>
-  <div class="column">
-    <img src="gallery/DSC_0897.JPG" style="width:90%">
-    
-  </div>  
-  <div class="column">
-    <img src="gallery/IMG_0537.jpg" style="width:90%">
-    
-  </div>
-  <div class="column">
-    <img src="gallery/IMG_1781.jpg" style="width:90%">
-    
-  </div>
-<div>
-</div>
 
 <footer>
   hussain05.murtaza@gmail.com | © Hussain Murtaza 2026
