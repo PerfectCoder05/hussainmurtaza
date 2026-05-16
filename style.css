@@ -13,10 +13,12 @@ html {
 body {
     font-family: "Abaddon";
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     background-color: rgb(212, 82, 82);
     color: black;
     margin: 0;
-    padding-bottom: 40px;
 }
 img {
     max-width: 100%;
@@ -98,4 +100,26 @@ p {
     padding: 20px;
     width: 300px;
     text-align: left;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  color: var(--white);
+  font-size: 0.9rem;
+  transition: var(--transition);
 }
