@@ -65,6 +65,26 @@ p {
     border-radius: 8px;
 }
 
+.form-panel{width: max-content;margin-left: auto;position:sticky;top:70px;bottom:20px;border-left:1px solid #ddd}
+.form-head{padding:2rem}
+.form-head-title{font-size:2rem;letter-spacing:0.04em;margin-bottom:0.25rem}
+.form-head-sub{font-size:1.3rem;color:#888;letter-spacing:0.1em}
+.form-body{padding:2rem}
+.f-group{margin-bottom:1.5rem}
+.f-label{font-size:1.5rem;letter-spacing:0.15em;text-transform:uppercase;color:#000000;display:block;margin-bottom:0.5rem}
+.f-input,.f-textarea,.f-select{width:100%;border:1px solid #ddd;padding:0.7rem;font-size:1rem;font-weight:300;outline:none;transition:border-color 0.15s}
+.f-input:focus,.f-textarea:focus{border-color:#888}
+.f-textarea{height:110px;resize:vertical}
+.f-select{cursor:pointer}
+.stars-row{gap:0.3rem;margin-top:0.4rem}
+.star{font-size:1.3rem;cursor:pointer;color:#ddd;transition:color 0.1s;line-height:1}
+.star.on{color:#ff00b3}
+.f-submit{width:100%;border:none;padding:1rem;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;cursor:crosshair;transition:background 0.15s;margin-top:0.5rem}
+.f-submit:hover{background:#c4201a}
+.success{display:none;padding:3rem 2rem;text-align:center}
+.s-mark{font-size:4rem;margin-bottom:1rem}
+.s-text{font-size:0.7rem;color:#555;letter-spacing:0.1em;line-height:1.8;text-transform:uppercase}
+
 /* Skills Slider */
 .slider-container {
     overflow: hidden;

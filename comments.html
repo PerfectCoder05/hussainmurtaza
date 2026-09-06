@@ -22,6 +22,42 @@
     <a href='gallery.html'>Gallery</a>
   </div>
 
+  <div class="form-panel">
+    <div class="form-head">
+      <div class="form-head-title">RATE THE SITE</div>
+      <div class="form-head-sub">All entries reviewed</div>
+    </div>
+    <div class="form-body" id="the-form">
+      <div class="f-group">
+        <label class="f-label">Full Name</label>
+        <input class="f-input" type="text" placeholder="Your name">
+      </div>
+      <div class="f-group">
+        <label class="f-label">City, Country</label>
+        <input class="f-input" type="text" placeholder="Where you're from">
+      </div>
+      <div class="f-group">
+        <label class="f-label">Rating</label>
+        <div class="stars-row" id="star-row">
+          <span class="star" onclick="rate(1)">★</span>
+          <span class="star" onclick="rate(2)">★</span>
+          <span class="star" onclick="rate(3)">★</span>
+          <span class="star" onclick="rate(4)">★</span>
+          <span class="star" onclick="rate(5)">★</span>
+        </div>
+      </div>
+      <div class="f-group">
+        <label class="f-label">Personal Comment</label>
+        <textarea class="f-textarea" placeholder="What was your experience of the site?"></textarea>
+      </div>
+      <button class="f-submit" onclick="submit()">Submit Entry →</button>
+    </div>
+    <div class="success" id="success">
+      <div class="s-mark">✓</div>
+      <div class="s-text">Entry received.<br>We'll read it carefully.<br>Published within 48 hours.</div>
+    </div>
+  </div>
+
   <div class="social-links">
     <a href="https://www.instagram.com/hussain.m.multanwala/"><i class="bi bi-instagram"></i></a>
     <a href="https://github.com/PerfectCoder05"><i class="bi bi-github"></i></a>
